@@ -9,10 +9,10 @@
     <div class="col-md-3">
         <a class="btn btn-primary btn-block" href="{% url 'cadastro' %}"><i class="fa fa-plus-circle"></i>
             Cadastrar produto
-        </a> 
+        </a>
         <a class="btn btn-primary btn-block" href="{% url 'vendas' %}"><i class="fa fa-minus-circle"></i>
             Saída de produto
-        </a>      
+        </a>
     </div>
 </div>
 
@@ -32,7 +32,7 @@
                 <td>{{ user.quantidade }}</td>
                 <td>{{ user.preco }}</td>
                 <td>
-                    <div class="btn-group" role="group" aria-label="Basic exemple">
+                    <div class="btn-group" role="group" aria-label="Basic example">
                         <a href="{% url 'modificar' user.pk %}" class="btn btn-warning"><i class='fa fa-edit'></i></a>
                         <a href="{% url 'deletar' user.pk %}" class="btn btn-danger delete-button" onclick="return confirm('Tem certeza que deseja excluir este produto?')"><i class='fa fa-trash-alt'></i></a>
                     </div>
@@ -48,5 +48,4 @@
         </tbody>
     </table>
 </div>
-
 {% endblock %}
