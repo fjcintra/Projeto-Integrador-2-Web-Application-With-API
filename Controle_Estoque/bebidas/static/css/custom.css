@@ -1,9 +1,22 @@
 /* Classe para alto contraste */
-.high-contrast {
+/* Estilos para tabela em alto contraste */
+.high-contrast-table {
     background-color: black;
-    color: white;
 }
 
+.high-contrast-table th, .high-contrast-table td {
+    color: white !important;
+}
+
+/* Estilos para o texto em alto contraste */
+.high-contrast-text {
+    color: white !important;
+}
+
+.high-contrast{
+    background-color: black;
+    color: white !important;
+}
 /* Classe para aumentar o zoom */
 .zoom-in {
     transform: scale(1.08); /* Ajuste o valor conforme necessário */
