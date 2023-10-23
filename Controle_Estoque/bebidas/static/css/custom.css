@@ -1,0 +1,10 @@
+/* Classe para alto contraste */
+.high-contrast {
+    background-color: black;
+    color: white;
+}
+
+/* Classe para aumentar o zoom */
+.zoom-in {
+    transform: scale(1.08); /* Ajuste o valor conforme necessário */
+}
